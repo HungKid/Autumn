@@ -13,18 +13,19 @@ const lanternImages = [];
 for (let i = 1; i <= 9; i++) lanternImages.push(`./style/img/lantern/ld (${i}).png`);
 
 const messages = [
-    { text: "Chúc em Trung Thu vui vẻ!", img: "https://i.pinimg.com/originals/81/66/c3/8166c341a2030a2a0d28a5a6e1bf961b.gif" },
-    { text: "Trung Thu này có quà chưa!", img: "https://i.pinimg.com/originals/33/76/db/3376dbdfc1b6e8b71a2ea7353e4fc0f2.gif" },
-    { text: "Trung thu có muốn đi chơi cùng anh hông nè", img: "https://i.pinimg.com/originals/3a/fc/12/3afc12d6744a68594d29eb565c62244c.gif" },
-    { text: "Trung Thu vui vẻ nha bé 💖🌙", img: "https://i.pinimg.com/originals/2f/82/bb/2f82bb5524663e046922d08a1cdb2ddd.gif" },
-    { text: "Tối nay đi dạo phố đèn với anh heng? 🏮", img: "./style/img/Anh (1).jpg" }, 
-    { text: "Em là món quà trung thu ý nghĩa nhất của anh 🏮", img: "./style/img/Anh (2).jpg" }, 
-    { text: "Trung Thu này, có em là đủ ngọt hơn mọi loại bánh 🍰", img: "./style/img/Anh (3).jpg" }, 
-    { text: "Chị Hằng xinh đẹp ơi, có muốn cùng cuội đi chơi không nè", img: "./style/img/Anh (4).jpg" }, 
-    { text: "Anh sẽ là 'đèn hộ mệnh' dẫn em đi chơi nhé", img: "https://i.pinimg.com/originals/e8/9f/b9/e89fb9588567a3d1f89d881d9e6abcb9.gif" }, 
-    { text: "Em chính là chiếc lồng đèn đặc biệt nhất của anh", img: "./style/img/Anh (5).jpg" }, 
-    { text: "Trung Thu này không cần nhiều, chỉ cần em thôi 😘", img: "./style/img/Anh (6).jpg" }, 
-    { text: "Em chính là điều ước của anh dưới trăng 🌌", img: "./style/img/Anh (7).jpg" }
+    { text: "Chúc chị bé của em Trung Thu vui vẻ, ấm áp và luôn khỏe mạnh, bình an! 😊", img: "https://i.pinimg.com/originals/fc/cb/07/fccb0736aba4e6892cf1dabe9f6866d6.gif" },
+    { text: "Trung Thu này hong cần quà, chỉ cần chị thoi! 🎁", img: "https://i.pinimg.com/originals/75/35/89/753589ee385233757d931b8800cc7475.gif" },
+    { text: "Trung thu này nếu chị chưa có người thương, hong xao hong xao, có e thương^^", img: "https://i.pinimg.com/originals/60/b4/f9/60b4f9c20f6b6536bc232355030c4b7a.gif" },
+    { text: "Người ta ngắm trăng, còn em lại ngắm chị — vì chị rực rỡ hơn cả đêm Trung Thu. 💖🌙", img: "./style/img/Anh (4).jpg" },
+    { text: "Nếu có điều ước trong đêm trăng rằm, em chỉ muốn được nhìn thấy chị ngoài đời thêm một lần", img: "./style/img/Anh (1).jpg" }, 
+    { text: "Nếu có thể gửi lời chúc theo ánh trăng, em muốn nhắn rằng: ‘Chị ơi, mãi tỏa sáng nha! 🌟 ", img: "./style/img/Anh (11).jpg" }, 
+    { text: "Trung Thu này, có chị là đủ ngọt ngào hơn mọi loại bánh 🍰", img: "./style/img/Anh (3).jpg" }, 
+    { text: "Bánh Trung Thu có nhân gì cũng được, miễn là trong tim em luôn có ‘nhân vật chính’ là chị 🥮", img: "./style/img/Anh (9).jpg" }, 
+    { text: "Trăng tròn rồi sẽ khuyết, nhưng tình cảm của fan nhỏ này dành cho chị thì không bao giờ phai 🌙", img: "https://i.pinimg.com/originals/8e/d5/3a/8ed53a260b997abc3dc6bef98a71192b.gif" }, 
+    { text: "Đêm nay trăng tròn, tim em cũng tròn — vì chị đã chiếm trọn cả hai 🧡", img: "./style/img/Anh (5).jpg" }, 
+    { text: "Nếu mỗi ngọn đèn lồng là một lời chúc, thì em xin thắp cả ngàn đèn để chúc chị luôn hạnh phúc 🏮", img: "./style/img/Anh (7).jpg" }, 
+    { text: "Đêm Trung Thu gió mát, trăng trong, nhưng không gì làm em rung động bằng giọng nói của chị 🍂 ", img: "./style/img/Anh (2).jpg" },
+    { text: "Chị Hằng trong đêm trăng thì cũng đẹp đấy, nhưng lộng lẫy nhất là chị Hà cơ ✨ ", img: "./style/img/Anh (6).jpg" }
 ];
 
 const lanternsContainer = document.getElementById("lanternsContainer");
